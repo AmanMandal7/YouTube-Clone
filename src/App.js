@@ -24,66 +24,7 @@ function App() {
         <Main>
           <Navbar />
           <Wrapper>
-            video cards
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
-            <h1>land</h1>
+
           </Wrapper>
         </Main>
       </Container>
