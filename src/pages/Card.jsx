@@ -43,6 +43,9 @@ const ChannelName = styled.h4`
   font-weight: 400;
   color: ${({ theme }) => theme.textSoft};
   margin: 6px 0px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
 `;
 const Info = styled.div`
   font-size: 14px;
@@ -58,7 +61,7 @@ const Card = () => {
           <ChannelImage src={netflix} />
           <Texts>
             <Title>
-              Extraction official trailer | Chris Hemsworth | Netflix
+              Extraction Official Trailer | Chris Hemsworth | Netflix
             </Title>
             <ChannelName>
               Netflix <CheckCircleIcon fontSize="2px" />
