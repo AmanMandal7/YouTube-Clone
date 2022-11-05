@@ -4,6 +4,8 @@ import ThumbUpIcon from "@mui/icons-material/ThumbUp";
 import ThumbDownIcon from "@mui/icons-material/ThumbDown";
 import ReplyIcon from "@mui/icons-material/Reply";
 import AddTaskIcon from "@mui/icons-material/AddTask";
+import netflix from "../img/netflix.png";
+import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 
 const Container = styled.div`
   display: flex;
@@ -51,6 +53,60 @@ const Recommendation = styled.div`
   flex: 2;
 `;
 
+const Channel = styled.div`
+  display: flex;
+  justify-content: space-between;
+`;
+const ChannelInfo = styled.div`
+  display: flex;
+  gap: 15px;
+`;
+const Image = styled.img`
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #999;
+`;
+const ChannelDetail = styled.div`
+  display: flex;
+  flex-direction: column;
+  color: ${({ theme }) => theme.text};
+`;
+const ChannelName = styled.span`
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+`;
+
+const Icon = styled.div`
+  margin-top: 4px;
+  color: ${({ theme }) => theme.textSoft};
+`;
+
+const ChannelCounter = styled.span`
+  margin-top: 2px;
+  margin-bottom: 20px;
+  color: ${({ theme }) => theme.textSoft};
+  font-size: 14px;
+`;
+const Description = styled.p`
+  font-size: 15px;
+`;
+const Subscribe = styled.button`
+  background-color: #cc1a00;
+  font-weight: 500;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  height: max-content;
+  margin-top: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+`;
+
 const Video = () => {
   return (
     <Container>
@@ -85,6 +141,29 @@ const Video = () => {
           </Buttons>
         </Details>
         <Hr />
+        <Channel>
+          <ChannelInfo>
+            <Image src={netflix} />
+            <ChannelDetail>
+              <ChannelName>
+                Netflix
+                <Icon>
+                  <CheckCircleIcon fontSize="1px" />
+                </Icon>
+              </ChannelName>
+              <ChannelCounter>24.9M subscribers</ChannelCounter>
+              <Description>
+                Tyler Rake (Chris Hemsworth) is a fearless black market
+                mercenary who embarks on the deadliest mission of his career
+                when he’s enlisted to rescue the kidnapped son of an
+                international crime lord. Directed by Sam Hargrave, this
+                action-packed, edge-of-your-seat thriller is produced by Joe and
+                Anthony Russo, the visionary directors of Avengers: Endgame.{" "}
+              </Description>
+            </ChannelDetail>
+          </ChannelInfo>
+          <Subscribe>SUBSCRIBE</Subscribe>
+        </Channel>
       </Content>
       <Recommendation>Recommendation</Recommendation>
     </Container>
