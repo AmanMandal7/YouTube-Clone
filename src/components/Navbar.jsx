@@ -31,10 +31,15 @@ const Search = styled.div`
   padding: 5px;
   border: 1px solid #ccc;
   border-radius: 3px;
+  color: ${({ theme }) => theme.text};
 `;
 const Input = styled.input`
   border: none;
   background-color: transparent;
+  outline: none;
+  width: 480px;
+  height: 20px;
+  font-size: 17px;
 `;
 const Button = styled.button`
   padding: 5px 15px;

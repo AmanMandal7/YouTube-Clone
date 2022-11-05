@@ -6,6 +6,7 @@ import ReplyIcon from "@mui/icons-material/Reply";
 import AddTaskIcon from "@mui/icons-material/AddTask";
 import netflix from "../img/netflix.png";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
+import Comments from "../components/Comments";
 
 const Container = styled.div`
   display: flex;
@@ -164,6 +165,8 @@ const Video = () => {
           </ChannelInfo>
           <Subscribe>SUBSCRIBE</Subscribe>
         </Channel>
+        <Hr />
+        <Comments />
       </Content>
       <Recommendation>Recommendation</Recommendation>
     </Container>
