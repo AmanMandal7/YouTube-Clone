@@ -1,5 +1,5 @@
 import React from "react";
-import styled, { ThemeConsumer } from "styled-components";
+import styled from "styled-components";
 import ThumbUpIcon from "@mui/icons-material/ThumbUp";
 import ThumbDownIcon from "@mui/icons-material/ThumbDown";
 import ReplyIcon from "@mui/icons-material/Reply";

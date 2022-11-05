@@ -36,8 +36,10 @@ const Wrapper = styled.div`
 const Logo = styled.div`
   display: flex;
   align-items: center;
-  gap: 5px;
-  font-weight: bold;
+  gap: 3px;
+  font-size: 20px;
+  font-family: fantasy;
+  font-weight: 300;
   margin-bottom: 25px;
 `;
 
