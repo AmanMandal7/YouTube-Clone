@@ -7,10 +7,11 @@ import AddTaskIcon from "@mui/icons-material/AddTask";
 import netflix from "../img/netflix.png";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import Comments from "../components/Comments";
+import Card from "./Card";
 
 const Container = styled.div`
   display: flex;
-  gap: 24px;
+  gap: 16px;
 `;
 const Content = styled.div`
   flex: 5;
@@ -51,7 +52,7 @@ const Hr = styled.hr`
 `;
 
 const Recommendation = styled.div`
-  flex: 2;
+  flex: 2.5;
 `;
 
 const Channel = styled.div`
@@ -168,7 +169,18 @@ const Video = () => {
         <Hr />
         <Comments />
       </Content>
-      <Recommendation>Recommendation</Recommendation>
+      <Recommendation>
+        <Card type="sm" />
+        <Card type="sm" />
+        <Card type="sm" />
+        <Card type="sm" />
+        <Card type="sm" />
+        <Card type="sm" />
+        <Card type="sm" />
+        <Card type="sm" />
+        <Card type="sm" />
+        <Card type="sm" />
+      </Recommendation>
     </Container>
   );
 };
