@@ -11,10 +11,10 @@ import Card from "./Card";
 
 const Container = styled.div`
   display: flex;
-  gap: 16px;
+  gap: 12px;
 `;
 const Content = styled.div`
-  flex: 5;
+  flex: 6;
 `;
 
 const VideoWrapper = styled.div``;

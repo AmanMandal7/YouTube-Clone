@@ -44,7 +44,7 @@ const Title = styled.h1`
   font-size: 16px;
   font-weight: 500;
   color: ${({ theme }) => theme.text};
-  width: ${(props) => (props.type === "sm" ? "200px" : "none")};
+  width: ${(props) => (props.type === "sm" ? "188px" : "none")};
 `;
 const ChannelName = styled.h4`
   font-size: 14px;
