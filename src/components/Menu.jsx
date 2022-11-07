@@ -86,7 +86,7 @@ const Menu = ({ darkMode, setDarkMode }) => {
         <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
           <Logo>
             <Img src={YouTube} />
-            YouTube
+            FakeTube
           </Logo>
         </Link>
         <Item>
