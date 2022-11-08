@@ -26,7 +26,7 @@ https://faketube-clone.netlify.app
 - Homepage
 ![App Screenshot](https://github.com/AmanMandal7/YouTube-Clone/blob/master/screenshots/Home%20Screen.png)
 
-- Dark and Light Mode(by default-Dakr Mode)
+- Dark and Light Mode(by default-Dark Mode)
 ![App Screenshot](https://github.com/AmanMandal7/YouTube-Clone/blob/master/screenshots/Dark%20and%20Light%20Mode.png)
 
 - Video with details 
